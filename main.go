@@ -21,7 +21,6 @@ import (
 )
 
 // TODO: Написать тесты
-// TODO: Написать README.md
 
 // Size of typical Jumbo frames
 // Hmm... What is the max size of 'mgets' may be?
