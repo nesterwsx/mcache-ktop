@@ -20,7 +20,8 @@ import (
 	"regexp"
 )
 
-// TODO: Написать тесты
+// TODO: Write tests
+// TODO: Use godep
 
 // Size of typical Jumbo frames
 // Hmm... What is the max size of 'mgets' may be?
