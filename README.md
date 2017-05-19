@@ -79,9 +79,9 @@ Usage mcache-ktop [options]:
         "regexps": [
                 {"re": "^user_:.*",     "name": "user_*"},
                 {"re": "^hrc:.*",       "name": "hrc*"},
-		        {"re": "^Vlc_.*",       "name": "Vlc_*"},
-		        {"re": "^history_.*",   "name": "history_*"},
-		        {"re": "^map_coords.*", "name": "map_coords*"}
+                {"re": "^Vlc_.*",       "name": "Vlc_*"},
+                {"re": "^history_.*",   "name": "history_*"},
+                {"re": "^map_coords.*", "name": "map_coords*"}
         ],
         "interval": 3,
         "interface": "",
