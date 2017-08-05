@@ -23,7 +23,7 @@ Tested on CentOS x64 6/7 and MacOS
 
 ## Example
 ```
-     Reads	      Writes    Read bytes	   Written bytes   Key
+     Reads      Writes     Read bytes    Written bytes   Key
 -------------------------------------------------------------------------------------------------------
  3,168,060       16,774         11 GB           140 MB   user_*
  1,718,936           75        1.4 GB            91 MB   yi:SHOW_CREATE_TABLE_*
