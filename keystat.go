@@ -91,11 +91,10 @@ func (s *Stat) Rotate(clear bool) *Stat {
 	s.Lock.Lock()
 	defer s.Lock.Unlock()
 
-	new_stat := NewStat()
-	new_stat.keys = s.keys
-
+	new_stat := s
 	if clear {
 		s.keys = make(map[string]KeyStat)
 	}
 	return new_stat
 }
+
